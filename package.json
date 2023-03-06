@@ -1,0 +1,32 @@
+{
+  "name": "embeddable-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "rimraf dist && parcel build"
+  },
+  "dependencies": {
+    "@codesandbox/sandpack-react": "^2.0.17",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@basis-theory/eslint-config": "^1.0.13",
+    "@parcel/transformer-inline-string": "2.8.3",
+    "@parcel/transformer-sass": "2.8.3",
+    "@types/node": "^18.14.1",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "buffer": "^5.5.0",
+    "eslint": "^7.32.0",
+    "parcel": "^2.8.3",
+    "path-browserify": "^1.0.0",
+    "prettier": "^2.8.4",
+    "process": "^0.11.10",
+    "rimraf": "^4.3.0"
+  },
+  "prettier": "@basis-theory/eslint-config/prettier"
+}
