@@ -6,6 +6,7 @@ import {
   SandpackPreview,
   SandpackProvider,
 } from '@codesandbox/sandpack-react';
+import { dracula } from "@codesandbox/sandpack-themes";
 
 export const App = () => {
   const [scriptInjected, setScriptInjected] = useState(false);
@@ -36,7 +37,7 @@ export const App = () => {
 
   // eslint-disable-next-line unicorn/no-null
   return !options ? null : (
-    <SandpackProvider style={{ height: '100%' }} theme="auto" {...options}>
+    <SandpackProvider style={{ height: '100%' }} theme={dracula} {...options}>
       <SandpackLayout
         style={{
           display: 'flex',
