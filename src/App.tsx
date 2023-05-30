@@ -6,7 +6,7 @@ import {
   SandpackPreview,
   SandpackProvider,
 } from '@codesandbox/sandpack-react';
-import {theme} from "./theme";
+import { theme } from './theme';
 
 export const App = () => {
   const [scriptInjected, setScriptInjected] = useState(false);
@@ -44,9 +44,8 @@ export const App = () => {
           flexDirection: 'column',
           height: '100%',
           borderRadius: '24px',
-          border: 'none'
+          border: 'none',
         }}
-
       >
         <SandpackCodeEditor />
         <SandpackPreview />
