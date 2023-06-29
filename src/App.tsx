@@ -43,7 +43,6 @@ export const App = () => {
           display: 'flex',
           flexDirection: 'column',
           height: '100%',
-          borderRadius: '24px',
           border: 'none',
         }}
       >
